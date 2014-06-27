@@ -34,6 +34,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 group :production do 
 	gem 'pg'
+	gem 'rails_12factor', '0.0.2'
 end
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
